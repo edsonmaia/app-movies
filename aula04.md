@@ -115,9 +115,6 @@ O código deve ficar da seguinte forma:
 
 ~~~
 
-> Em resumo, o CSS do Header, do Footer e do Container vão ser alterados ao longo das aulas.
-> Principalmente, porque não 'zeramos' o css global.
-
 ## Criar componente Banner
 
 1. Dentro de components crie a pasta Banner
@@ -220,12 +217,16 @@ A props children serve para colocarmos qualquer texto, tags html e códigos JS d
 1. Abra o arquivo App.js
 2. Use a tag do componente `<Container>` abaixo do Banner
 
-`<Container>
+```
+<Container>
 	<h1>Hello World!</h1>
-   <p>Olá Mundo! Estou aprendendo React JS!</p>
-</Container>`
+    <p>Olá Mundo! Estou aprendendo React JS!</p>
+</Container>
+```
 
 3. Faça o import do componente Container
-`import Container from "./components/Container";`
+```
+import Container from "./components/Container";
+```
 
 4. Salve as alterações e veja o resultado no browser.
