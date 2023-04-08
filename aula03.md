@@ -116,7 +116,7 @@ Ele é como uma tag com nome do componente.
 
 ~~~
 
-> O CSS dos componentes vão ser alterados ao longo das aulas.
+> O CSS dos componentes vai ser alterados ao longo das aulas.
 
 ## Criar componente Footer
  
@@ -181,7 +181,7 @@ export default Footer;
 
 ~~~
 
-> O CSS dos componentes vão ser alterados ao longo das aulas.
+> O CSS dos componentes vai ser alterados ao longo das aulas.
 
 ## Resumo final [29:55]
 
