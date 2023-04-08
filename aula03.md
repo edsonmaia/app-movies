@@ -72,11 +72,13 @@ export default Header;
 3. Dentro do fragment acima da tag h1, vamos usar o nosso componente <Header />
 Ele é como uma tag com nome do componente.
 
+~~~javascript
 <>
 	<Header />
 	<h1>Hello World!</h1>
 	<p>Olá Mundo! Estou aprendendo React JS!</p>
 </>
+~~~
 
 4. Salve as alterações e veja o resultado no browser.
 
@@ -143,13 +145,16 @@ export default Footer;
 
 `import Footer from "./components/Footer"`
 
-2. Abaixo do p coloque o nosso componente <Footer />
+2. Abaixo do p coloque o nosso componente `<Footer />`
+
+~~~javascript
 <>
 	<Header />
 	<h1>Hello World!</h1>
 	<p>Olá Mundo! Estou aprendendo React JS!</p>
 	<Footer />
 </>
+~~~
 
 3. Salve as alterações e veja o resultado no browser.
 
