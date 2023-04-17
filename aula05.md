@@ -2,26 +2,26 @@
 
 Nesta aula vamos criar o componente Card e fazer o mapeamento de arquivo JSON para exibir informações.
 
-00:00 Apresentação das tarefas do dia
-01:00 Ajustes para retirar informações do App.js
-02:25 Criar componente Card
-08:13 Como usar o Card na nossa aplicação
-10:00 CSS de Card
-11:20 Ajuste do CSS do Container
-14:00 Organizar os Cards com seus títulos
-14:40 Criar section para organizar título e Card
-15:30 CSS (global) index.css para criar uma formatação do .card que está em App
-18:45 CSS de Card (ajuste)
-20:30 Motivação para mapear o JSON
-21:40 Ajustes no componente Card para usarmos o dados do JSON
-23:50 Passar as props id para os Cards
-25:20 Dinamizar os Cards pegando os IDs do JSON
-25:40 Crie a pasta json dentro de src
-26:59 Import dos videos do arquivo db.json
-31:44 Map sem o uso do key, veja o erro nas Ferramentas de Desenvolvedor
-32:10 Props key
-33:20 Finalização da aula
-34:20 Criar outras categorias com suas listas de Cards
+* 00:00 Apresentação das tarefas do dia
+* 01:00 Ajustes para retirar informações do App.js
+* 02:25 Criar componente Card
+* 08:13 Como usar o Card na nossa aplicação
+* 10:00 CSS de Card
+* 11:20 Ajuste do CSS do Container
+* 14:00 Organizar os Cards com seus títulos
+* 14:40 Criar section para organizar título e Card
+* 15:30 CSS (global) index.css para criar uma formatação do .card que está em App
+* 18:45 CSS de Card (ajuste)
+* 20:30 Motivação para mapear o JSON
+* 21:40 Ajustes no componente Card para usarmos o dados do JSON
+* 23:50 Passar as props id para os Cards
+* 25:20 Dinamizar os Cards pegando os IDs do JSON
+* 25:40 Crie a pasta json dentro de src
+* 26:59 Import dos videos do arquivo db.json
+* 31:44 Map sem o uso do key, veja o erro nas Ferramentas de Desenvolvedor
+* 32:10 Props key
+* 33:20 Finalização da aula
+* 34:20 Criar outras categorias com suas listas de Cards
 
 ## Criar componente Card
 
