@@ -2,22 +2,22 @@
 
 Nesta aula vamos criar o componente Category e filtrar vídeos por categoria.
 
-00:00 Apresentação das tarefas do dia
-00:50 Novo arquivo JSON, videos.json
-02:00 Atualizar o import de mapeamento dos vídeos
-02:50 Motivação da criação de novo componente Category
-03:10 Criar componente Category
-08:50 Usar o componente Category
-11:18 CSS de Category
-13:35 Preparação para filtrar vídeos por categoria
-14:30 Criar a const cateogories
-15:30 Apague código anterior que estava comentado e comente o atual
-16:00 Filtrar vídeos por categoria
-16:20 Criar função filterCategory
-18:39 Como usar a função filterCategory
-19:40 Copie a estrutura de Category para fazer as outras categorias
-22:10 Finalização da aula
-23:35 Desafio para a próxima aula
+* 00:00 Apresentação das tarefas do dia
+* 00:50 Novo arquivo JSON, videos.json
+* 02:00 Atualizar o import de mapeamento dos vídeos
+* 02:50 Motivação da criação de novo componente Category
+* 03:10 Criar componente Category
+* 08:50 Usar o componente Category
+* 11:18 CSS de Category
+* 13:35 Preparação para filtrar vídeos por categoria
+* 14:30 Criar a const cateogories
+* 15:30 Apague código anterior que estava comentado e comente o atual
+* 16:00 Filtrar vídeos por categoria
+* 16:20 Criar função filterCategory
+* 18:39 Como usar a função filterCategory
+* 19:40 Copie a estrutura de Category para fazer as outras categorias
+* 22:10 Finalização da aula
+* 23:35 Desafio para a próxima aula
 
 ## Atualizar o arquivo JSON
 
