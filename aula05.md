@@ -119,7 +119,7 @@ Vamos fazer uma formatação geral dos cards
 ~~~
 
 OBS.: Esse código CSS foi feito só para gente ver como organizar o conteúdo dentro do Container.
-Quando criamos o componente Category, devemos apagar ele.
+Quando criarmos o componente Category, devemos apagar ele.
 
 ## Ajustes no componente Card para usarmos dados do JSON
 
