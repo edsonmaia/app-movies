@@ -2,20 +2,20 @@
 
 Nesta aula vamos solucionar o desafio da aula anterior e trabalhar com uma refatoração para resolver um 'problema' de escopo.
 
-00:00 Apresentação das tarefas do dia
-00:15 Solução proposta pelo Almeida
-00:45 Solução do desafio
-03:00 Teste para ver se funcionou a refatoração
-03:10 Comentários sobre a solução do usuário Almeida
-04:57 'Problema' de escopo da const categories e function filterCategory
-06:35 Solução do 'problema' de escopo
-07:40 Solução dos 'erros' no arquivo index.js de Category
-09:20 Solução do erro da const categories
-10:40 Ajuste do import para receber a const e da function
-11:10 Solução do erro da function filterCategory
-11:45 Ajuste do import para receber a const e da function
-12:25 'Erro' do import de vídeos em App.js
-13:10 Finalização da aula
+* 00:00 Apresentação das tarefas do dia
+* 00:15 Solução proposta pelo Almeida
+* 00:45 Solução do desafio
+* 03:00 Teste para ver se funcionou a refatoração
+* 03:10 Comentários sobre a solução do usuário Almeida
+* 04:57 'Problema' de escopo da const categories e function filterCategory
+* 06:35 Solução do 'problema' de escopo
+* 07:40 Solução dos 'erros' no arquivo index.js de Category
+* 09:20 Solução do erro da const categories
+* 10:40 Ajuste do import para receber a const e da function
+* 11:10 Solução do erro da function filterCategory
+* 11:45 Ajuste do import para receber a const e da function
+* 12:25 'Erro' do import de vídeos em App.js
+* 13:10 Finalização da aula
 
 ## Solução do desafio
 
