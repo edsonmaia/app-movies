@@ -13,14 +13,6 @@ Criar componente Carousel React Slick
 5. Usar o Carousel na page Home
 5. Ajustes no CSS dos componentes: Container, Category, Card e Carousel(carousel.css)
 
-* 00:00 Apresentação das tarefas do dia
-* 
-* 
-* 
-* 
-
-* 27:35 Finalização
-
 ## Apresentação das tarefas do dia [00:00]
 
 Vamos criar um Carrossel utilizando uma lid de terceiros. Mas, antes vamos atualizar nossa listagem de vídeos do arquivo json.
