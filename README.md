@@ -6,7 +6,7 @@
 
 ### `npm install`
 
-> O comando irá fazer a instalação das dependências e do pasta node_modules
+> O comando irá fazer a instalação das dependências e da pasta node_modules. Mais, detalhes sobre esta operação eu mostro na [aula 15](https://github.com/edsonmaia/app-movies/blob/main/aulas/aula15.md) da série de vídeos.
 
 4. Depois da instalação das dependências, rode o comando:
 
@@ -21,6 +21,7 @@ no seguinte endereço:
 
 Os comandos que você pode 'rodar' estão no arquivo package.json
 na propriedade scripts.
+
 Por exemplo, para publicar (deployment) a aplicação é importante fazer o 'build':
 
 ### `npm run build`
