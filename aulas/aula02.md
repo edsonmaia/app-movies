@@ -21,7 +21,7 @@ Vai ficar apenas 3 arquivos: App.js, index.js e index.css
 * manisfest.json
 * robots.txt
 
-Deixe apenas o logo.ico e index.html
+Deixe apenas o favicon.ico e index.html
 
 ## Ajustes nos códigos
 

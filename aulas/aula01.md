@@ -49,7 +49,7 @@ No parágrafo que está escrito:
 
 Altere o conteúdo para:
 
-> Digitar Hello Word! Olá mundo!
+> Hello Word! Olá mundo!
 
 Salve a alteração (CTRL + S) e veja o resultado no browser.
 
