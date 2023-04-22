@@ -1,15 +1,15 @@
-import style from "./Header.module.css";
+import styles from "./Header.module.css";
 
 function Header() {
     return (
-        <header className={style.header}>
+        <header className={styles.header}>
             <span>MaiaFlix</span>
             <nav>
-                <a href="">Home</a>
-                <a href="">Assistir</a>
+                <a href="#">Home</a>
+                <a href="#">Assistir</a>
             </nav>
         </header>
-    );
+    )
 }
 
 export default Header;
