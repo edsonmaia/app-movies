@@ -1,0 +1,4 @@
+.watch {
+    padding-top: 84px; /* 68px + 16px */
+    min-height: 100vh; /* no video height */
+}
