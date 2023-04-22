@@ -108,14 +108,15 @@ Por enquanto vamos fazer essa 'atrocidade'.
 
 Vamos fazer uma formatação geral dos cards
 
-/* Formatação geral dos cards */
 ~~~css
+/* Formatação geral dos cards */
 .cards {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 ~~~
 
 OBS.: Esse código CSS foi feito só para gente ver como organizar o conteúdo dentro do Container.

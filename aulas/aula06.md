@@ -26,7 +26,7 @@ Ele tem mais vídeos e uma propriedade chamada category.
 
 ### Atualize o importe de mapeamento dos vídeos
 
-`import videos from "./json/videos.json`
+`import videos from "./json/videos.json;`
 
 ## Criar componente Category
 

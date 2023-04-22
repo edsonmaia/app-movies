@@ -98,7 +98,10 @@ export default Watch;
 
 1. O Card irá passar o id para Watch. Abra o index.js de Card
 2. Substitua a tag a por um Link, faça o import dele [10:45]
+`import { Link } from "react-router-dom";`
+
 3. Use a props to
+
 ~~~javascript
 <Link to={`/watch/${id}`} >
     <img
@@ -107,6 +110,7 @@ export default Watch;
     />
 </Link>
 ~~~
+
 4. Apague as linhas do href, rel e target
 5. Vai ficar apenas a tag img dentro do nosso Link
 

@@ -73,7 +73,7 @@ function App() {
     );
 }
 
-export default App.
+export default App;
 
 ~~~
 
@@ -135,12 +135,10 @@ import Watch from "./pages/Watch";
 function AppRoutes() {
     return (
         <BrowserRouter>
-            <FavoritesProvider>
-                <Routes>
-                    <Route path="/" element={<Home />} ></Route>
-                    <Route path="/watch/:id" element={<Watch />} ></Route>
-                </Routes>
-            </FavoritesProvider>
+            <Routes>
+                <Route path="/" element={<Home />} ></Route>
+                <Route path="/watch" element={<Watch />} ></Route>
+            </Routes>
         </BrowserRouter>
     );
 }

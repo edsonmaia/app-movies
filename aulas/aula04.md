@@ -217,16 +217,16 @@ A props children serve para colocarmos qualquer texto, tags html e códigos JS d
 1. Abra o arquivo App.js
 2. Use a tag do componente `<Container>` abaixo do Banner
 
-```
+~~~javascript
 <Container>
 	<h1>Hello World!</h1>
     <p>Olá Mundo! Estou aprendendo React JS!</p>
 </Container>
-```
+~~~
 
 3. Faça o import do componente Container
-```
+~~~javascript
 import Container from "./components/Container";
-```
+~~~
 
 4. Salve as alterações e veja o resultado no browser.
