@@ -40,8 +40,6 @@ import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import styles from "./Search.module.css";
-import videos from "../../json/videos.json";
-import SearchVideoList from "../../components/SearchVideoList";
 
 function Search() {
     return (
@@ -51,7 +49,7 @@ function Search() {
             <section className={styles.search}>
                 <h2>Pesquisar</h2>
                 
-                <SearchVideoList videos={videos} />
+                Lista de vídeos
                 
             </section>
         </Container>
@@ -74,6 +72,7 @@ export default Search;
     display: flex;
     flex-direction: column;
 }
+
 ~~~
 
 ## Criar uma nova rota para a page Search [05:20]
@@ -89,7 +88,7 @@ export default Search;
 1. Abra o arquivo index.js do componente Header
 2. Duplique o link watch e abaixo faça a seguinte alteração:
 `<Link to="/search">Pesquisar</Link>`
-3. 
+3. Salve e feche o arquivo Header. 
 
 ## Ajustes no JSX da page Search  [07:42]
 
@@ -136,6 +135,40 @@ export default VideoList;
 Vamos utilizar o componente VideoList para listar todos os vídeos.
 
 > Passamos as props videos que é a nossa lista de vídeos do arquivo videos.json e a props emptyHeading é o texto que queremos exibir acima da nossa listagem de vídeos.
+
+1. Faça o import de videos e de VideoList.
+3. Use o componente VidoList no lugar do texto abaixo de h2:
+
+~~~javascript
+import Container from "../../components/Container";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import styles from "./Search.module.css";
+import videos from "../../json/videos.json";
+import VideoList from "../../components/VideoList";
+
+function Search() {
+    return (
+        <>
+        <Header />
+        <Container>
+            <section className={styles.search}>
+                <h2>Pesquisar</h2>
+                
+                <VideoList videos={videos} />
+                
+            </section>
+        </Container>
+        <Footer />
+        </>
+    );
+}
+
+export default Search;
+
+
+
+~~~
 
 Aos [23:30] fizemos ajustes no CSS de Search.
 
