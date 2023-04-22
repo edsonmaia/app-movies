@@ -33,7 +33,9 @@ Copie o arquivo videos.json para a sua pasta json.
 1. Abra o terminal CTRL + J ou CTRL + '
 2. Abra um 'novo' terminal CTRL + SHIFT + N
 3. Digite o comando:
+
 `npm install react-slick`
+
 4. Após a instalação feche o 'novo' terminal
 
 ### Import do CSS [04:00]
@@ -97,13 +99,13 @@ Precisamos criar um objeto que as propriedades, que serão as configurações do
 2. Da linha 16 até 20 está o nosso map das categories. Mas, as listas de vídeos por categorias são geradas na linha 18 onde está o nosso filter
 3. Coloque a linha do filter entre o nosso componente Carousel:
 ~~~javascript
-        {categories.map((category, index) =>
-          <Category category={category} key={index} >
-            <Carousel>
-              {filterCategory(index).map((video) => <Card id={video.id} key={video.id} />)}
-            </Carousel>
-          </Category>
-        )}
+    {categories.map((category, index) =>
+      <Category category={category} key={index} >
+        <Carousel>
+          {filterCategory(index).map((video) => <Card id={video.id} key={video.id} />)}
+        </Carousel>
+      </Category>
+    )}
 ~~~
 4. Faça o import do componente Carousel:
 `import Carousel from "../../components/Carousel";`
@@ -175,7 +177,17 @@ Abaixo segue o código completo do CSS:
 
 ## CSS do Card [26:00]
 
-Aplicar efeitos de hover no card
+### Antes no index.js de Card adicione a className styles.capa na tag img
+
+~~~javascript
+<img
+    src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
+    alt="Capa"
+    className={styles.capa}
+/>
+~~~
+
+Agora sim no Card.module.css aplicar efeitos de hover no card
 
 ~~~css
 .card {

@@ -1,7 +1,9 @@
 # Aula 13 Criar Component VideoList e Página Pesquisar
 
 Nesta aula vamos aprender como criar o componente VideoList e a página Pesquisar
+
 [28:00]
+
 1. Criar novo componente SearchVideoList
 2. Refatorar página Search para exibir o componente SearcVideoList
 3. SearchVideoList terá input de pesquisa, iremos trabalhar um useState para pegar os dados do campo e usar como critério de filter da listagem de vídeos.
@@ -64,7 +66,8 @@ export default SearchVideoList;
 ## Utilizar componente SearchVideoList na page Search [04:50]
 
 1. Na linha 16 do código no lugar de exibir o componente `<VideoList videos={videos}>` vamos usar o componente `<SearchVideoList videos={videos}>`
-2. Faça o import do SearchVideoList
+2. Faça o import do SearchVideoList:
+`import SearchVideoList from "../../components/SearchVideoList";`
 
 ## CSS de SearchVideoList [07:20]
 
@@ -103,6 +106,10 @@ Relembrando, estes muitos ajustes só estão sendo feitos, porque não estou seg
 ## EmptyHeading exibir mensagem [22:50]
 
 No código apresentado o início destas instruções vemos como usar a props emptyHeading para exibir mensagens, antes do exibir a quantidade total de vídeos.
+
+~~~javascript
+    
+~~~
 
 Aos [25:15] e aos [26:40] foram feitos ajustes no  CSS.
 
