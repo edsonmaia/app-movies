@@ -1,4 +1,5 @@
 .header {
+<<<<<<< Updated upstream
     background-color: #000000;
     border-bottom: 2px solid #f44336;
     position: fixed;
@@ -21,4 +22,32 @@
     color: #fff;
     padding-inline: 1rem;
     font-size: 1.125rem; /* 18px = 1.125rem; */
+=======
+	background-color: #000;
+	border-bottom: 2px solid #f443336;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	padding: 0.75rem;
+	font-size: 1.5rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header span {
+	font-size: 2rem;
+	color: #b71c1c;
+	font-weight: 500;
+}
+
+.header nav {
+	margin-right: 1rem;  
+}
+
+.header a {
+	text-decoration: none;
+	color: #fff;
+	padding-inline: 0.5rem;
+>>>>>>> Stashed changes
 }
