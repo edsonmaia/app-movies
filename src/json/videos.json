@@ -50,7 +50,7 @@
   },
   {
       "id": "zBVCW8xc19Q",
-      "title": "Como fazer Globo Terrestre",
+      "title": "Como fazer globo terrestre",
       "url": "https://www.youtube.com/watch?v=zBVCW8xc19Q",
       "cover": "https://img.youtube.com/vi/zBVCW8xc19Q/maxresdefault.jpg",
       "category": "Como fazer e usar"
@@ -64,14 +64,14 @@
   },
   {
       "id": "pvFy8PhJ-sY",
-      "title": "Como fazer Jogo da Memória de Orientação em Geografia",
+      "title": "Como fazer jogo da memória de orientação em Geografia",
       "url": "https://www.youtube.com/watch?v=pvFy8PhJ-sY",
       "cover": "https://img.youtube.com/vi/pvFy8PhJ-sY/maxresdefault.jpg",
       "category": "Como fazer e usar"
   },
   {
       "id": "Cy7Y8Jmdw8w",
-      "title": "Como fazer Jogo da Memória impresso",
+      "title": "Como fazer jogo da memória impresso",
       "url": "https://www.youtube.com/watch?v=Cy7Y8Jmdw8w",
       "cover": "https://img.youtube.com/vi/Cy7Y8Jmdw8w/maxresdefault.jpg",
       "category": "Como fazer e usar"
@@ -100,21 +100,21 @@
   {
     
     "id": "UerCpbS4KJk",
-    "title": "Como fazer Papel Machê para fazer maquetes e outros fins",
+    "title": "Como fazer papel machê para fazer maquetes e outros fins",
     "url": "https://www.youtube.com/watch?v=UerCpbS4KJk",
     "cover": "https://img.youtube.com/vi/UerCpbS4KJk/maxresdefault.jpg",
     "category": "Como fazer e usar"
   },
   {
     "id": "j93GpAPaLx8",
-    "title": "Como fazer Maquetes do Relevo e Hidrografia",
+    "title": "Como fazer maquetes do relevo e hidrografia",
     "url": "https://www.youtube.com/watch?v=j93GpAPaLx8",
     "cover": "https://img.youtube.com/vi/j93GpAPaLx8/maxresdefault.jpg",
     "category": "Como fazer e usar"
   },
   {
     "id": "zddTZjpEOxA",
-    "title": "Como pintar Maquetes do Relevo e Hidrografia",
+    "title": "Como pintar maquetes do relevo e hidrografia",
     "url": "https://www.youtube.com/watch?v=zddTZjpEOxA",
     "cover": "https://img.youtube.com/vi/zddTZjpEOxA/maxresdefault.jpg",
     "category": "Como fazer e usar"
@@ -131,6 +131,27 @@
     "title": "A Terra em movimento Rotação e Translação",
     "url": "https://www.youtube.com/watch?v=_hvwmwCIbSA",
     "cover": "https://img.youtube.com/vi/_hvwmwCIbSA/maxresdefault.jpg",
+    "category": "Astronomia e Geografia"
+  },
+  {
+    "id": "bSmk5bpvc4c",
+    "title": "Dia e Noite",
+    "url": "https://www.youtube.com/watch?v=bSmk5bpvc4c",
+    "cover": "https://img.youtube.com/vi/bSmk5bpvc4c/maxresdefault.jpg",
+    "category": "Astronomia e Geografia"
+  },
+  {
+    "id": "VbNKh9FaUWg",
+    "title": "Solstícios e Equinócios",
+    "url": "https://www.youtube.com/watch?v=VbNKh9FaUWg",
+    "cover": "https://img.youtube.com/vi/VbNKh9FaUWg/maxresdefault.jpg",
+    "category": "Astronomia e Geografia"
+  },
+  {
+    "id": "wodOww43nHA",
+    "title": "Estações do Ano",
+    "url": "https://www.youtube.com/watch?v=wodOww43nHA",
+    "cover": "https://img.youtube.com/vi/wodOww43nHA/maxresdefault.jpg",
     "category": "Astronomia e Geografia"
   },
   {
@@ -215,6 +236,13 @@
     "title": "GEOGRAFIA Terremoto na Turquia e na Síria 2023",
     "url": "https://www.youtube.com/watch?v=4ADuk1kY6Vw",
     "cover": "https://img.youtube.com/vi/4ADuk1kY6Vw/maxresdefault.jpg",
+    "category": "Geologia e Hidrografia"
+  },
+  {
+    "id": "sd9GcZpXZ7k",
+    "title": "Camadas da Terra",
+    "url": "https://www.youtube.com/watch?v=sd9GcZpXZ7k",
+    "cover": "https://img.youtube.com/vi/sd9GcZpXZ7k/maxresdefault.jpg",
     "category": "Geologia e Hidrografia"
   }
 

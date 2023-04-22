@@ -16,3 +16,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* formatacao da barra de rolagem */
+body::-webkit-scrollbar {
+  width: 12px;                /* largura da barra de rolagem */
+  background-color: #222;
+}
+
+body::-webkit-scrollbar-track {
+  background: #222;           /* cor de fundo da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #b71c1c;  /* cor do scroll (thumb) da barra de rolagem */
+  border-radius: 20px;        /* arredondar o scroll (thumb) */
+  border: 3px solid #222;     /* criar um espaco em volta do scroll */
+}

@@ -8,6 +8,7 @@ function Card({ id }) {
                 <img
                     src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
                     alt="Capa"
+                    className={styles.capa}
                 />
             </Link>
         </section>
