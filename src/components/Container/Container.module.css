@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    min-height: 100vh; /* 450px no video ou 100% o correto é min-height */
+    background-color: #191919;
+    color: #fff;
+    padding-block: 1rem;
+    text-align: center;
+}
