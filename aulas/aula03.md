@@ -87,7 +87,7 @@ Ele é como uma tag com nome do componente.
 ~~~css
 .header {
 	background-color: #000;
-	border-bottom: 2px solid #f443336;
+	border-bottom: 2px solid #f44336;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -167,10 +167,10 @@ export default Footer;
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-contents: center;
+	justify-content: center;
 	background-color: #000;
 	color: #fff;
-	border-top: 2px solid #f443336;
+	border-top: 2px solid #f44336;
 	padding: 0.5rem;
 }
 

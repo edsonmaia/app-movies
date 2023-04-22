@@ -85,7 +85,7 @@ export function filterCategory(id) {
 * Na linha 12 faça o mesmo com a function: `export function filterCategory(id) {`
 
 2.3 No arquivo App.js na linha 3 de import de Category faça o seguinte ajuste:
-`import Category, { categories, filterCategory } from "./component/Category";`
+`import Category, { categories, filterCategory } from "./components/Category";`
 
 3. 'Erro' do import de vídeos em App.js: Apague a linha 7 de importe de vídeos.
 

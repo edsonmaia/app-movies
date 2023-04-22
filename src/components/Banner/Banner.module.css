@@ -1,0 +1,9 @@
+.banner {
+    width: 100%; /* 1920 x 347 px */
+    height: 347px;
+    /* background-image: url('/public/images/banner-home.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 68px;
+}

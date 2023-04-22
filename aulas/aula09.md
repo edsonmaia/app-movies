@@ -56,6 +56,7 @@ export default PageNotFound;
 ### Arquivo erro404.png
 
 > O link do arquivo erro404.png está na descrição do vídeo do YouTube e também tem no arquivo Figma do projeto.
+> [Link no Drive](https://drive.google.com/file/d/1iBLhO8zIhpWm2EIbC6D2VA7elowRBkRq/view?usp=sharing)
 > A imagem deve ficar dentro da pasta da PageNotFound
 
 ## CSS de PageNotFound
@@ -115,7 +116,7 @@ Salve as alterações, feche o arquivo e teste no browser.
 
 ~~~
 3.2 Apague o `margin: 0;` que está no seletor `body`
-3.3 Apague também as linhas de Formatação dos .cards que colocamos na aula 05
+3.3 Apague também as linhas de Formatação dos .cards que colocamos na aula 05 linhas 20 até 27
 
 Salve as alterações e feche o arquivo.
 
@@ -138,7 +139,7 @@ Como está no tópico após a criação da page:
 .container {
     padding-top: 84px;
     width: 100%;
-    height: 100%; /* era 80vh no vídeo */
+    height: 100vh; /* era height: 100%; */
     background: #222;
     color: #fff;
     text-align: center;
