@@ -106,6 +106,7 @@ export default AppRoutes;
 2. Copie as imagens favorite.png e unfavorite.png para a pasta Card
 
 > As imagens estão no figma, no repositório do drive e na descrição do vídeo
+<https://www.figma.com/file/1Tbq4kboT998Z9AK2Vw4G6/app-movies?node-id=0%3A1&t=0YSUowbGYjmVb3RC-0>
 
 3. Faça o import das imagens de favoritos
 ~~~javascript
