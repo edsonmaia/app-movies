@@ -2,9 +2,9 @@
 
 ## Criação de página Favoritos
 
-1. Criar page Favorites
-2. Criar index.js e Favorites.module.css
-3. Código do index.js de Favorites:
+1. Criar page `Favorites`
+2. Criar `index.js` e `Favorites.module.css`
+3. Código do `index.js` de Favorites:
 
 ~~~javascript
 import Header from "../../components/Header";
@@ -104,7 +104,16 @@ export default AppRoutes;
 
 1. Abra o arquivo index.js de Card
 2. Copie as imagens favorite.png e unfavorite.png para a pasta Card
+
+> As imagens estão no figma, no repositório do drive e na descrição do vídeo
+<https://www.figma.com/file/1Tbq4kboT998Z9AK2Vw4G6/app-movies?node-id=0%3A1&t=0YSUowbGYjmVb3RC-0>
+
 3. Faça o import das imagens de favoritos
+~~~javascript
+import iconFavorite from "./favorite.png";
+import iconUnfavorite from "./unfavorite.png";
+~~~
+
 4. Abaixo de Link crie a tag figure e dentro dela coloque a img do ícone
 5. Refatorar o CSS para exibir o ícone Favoritar e formatar img da capa usando className capa
 
@@ -121,7 +130,11 @@ function Card({ id }) {
     return (
         <section className={styles.card}>
             <Link to={`/watch/${id}`} >
-                <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`} alt="Capa" className={styles.capa} />
+                <img
+                    src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
+                    alt="Capa"
+                    className={styles.capa}
+                />
             </Link>
             <figure className={styles.icon}>
                 <img src={iconFavorite} alt="Ícone" />
@@ -177,3 +190,7 @@ export default Card;
 }
 
 ~~~
+
+Na próxima aula vamos implementar as funcionalidades de Contexto para criar nossa lista de favoritos.
+
+Salve Devs, até a próxima.

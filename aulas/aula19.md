@@ -224,7 +224,16 @@ Após utilizar o setErrors podemos exibir os erros em tela.
 
 #### Para formatar os errors
 
-No final do CSS do Form acrescente:
+1. Dentro da tag div de erros do Form acrescente uma div com a className error e faça uma formatação condicional
+~~~javascript
+<div>
+    { errors && <div className={styles.error}>{ errors }</div> }
+</div>
+~~~
+
+> Na formatação condicional se tiver erros exibe a div com a className error senão não exibe nada.
+
+2. No final do CSS do Form acrescente:
 
 ~~~css
 /* aula 19 */
@@ -236,6 +245,7 @@ No final do CSS do Form acrescente:
     border-radius: 5px;
     font-size: 1.5rem;
 }
+
 ~~~
 
 ### Validação de URL [29:39]
@@ -288,6 +298,105 @@ if(urlVideo && category) {
 > 1ª Mudança na ordem de validações [34:13] nessa mudança eu recorte as linhas de códigos que criamos para guardar url e a category até limpar o form e colocamos dentro do if de validação da url.
 
 > 2ª Mudança na ordem de validações [36:42] mudamos a posição de validação de category. Colocamos ela acima da validação da url.
+
+## Código completo do index.js de Form (94 linhas)
+
+~~~javascript
+import styles from "./Form.module.css";
+import { categories } from "../Category";
+import { useState } from "react";
+
+function Form() {
+
+    const [ url, setUrl ] = useState('')
+    const [ category, setCategory ] = useState('')
+    const [ videos, setVideos ] = useState([])
+    const [ errors, setErrors ] = useState('')
+
+    function valideUrl(url) {
+        const regex = /^(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/)([a-zA-Z0-9\-_]+)$/
+    
+        if(!regex.test(url) || url.length < 43) {
+            setErrors('ERRO: URL inválida!')
+            return false
+        } else {
+            return url.substring(32, 43) // id do video
+        }
+    }
+
+    function onSave(e) {
+        e.preventDefault()
+        console.log(url, category)
+
+        // validar category
+        if(!category || category === '-') {
+            console.log('Escolha uma categoria')
+            setErrors('ERRO: Escolha uma categoria!')
+            return
+        } else {
+            setErrors('')
+        }
+
+        // validar url
+        const urlVideo = valideUrl(url)
+        if(urlVideo && category) {
+            // guardar a url e a category
+            const newVideo = { url, category }
+            setVideos([...videos, newVideo])
+            localStorage.setItem('videos', JSON.stringify([...videos, newVideo]))
+            // limpar o form
+            setUrl('')
+            setCategory('')
+        } else {
+            setErrors('ERRO: URL inválida!')
+        }
+
+    }
+
+    return (
+        <section className={styles.container}>
+            <h2>Cadastro de vídeo</h2>
+            <form onSubmit={onSave}>
+                <div>
+                    <label>URL do vídeo</label>
+                    <input
+                        type="text"
+                        placeholder="Digite a URL do vídeo"
+                        required="required"
+                        value={url}
+                        onChange={ e => setUrl(e.target.value) }
+                        minLength="43"
+                        maxLength="43"
+                    />
+                </div>
+                <div>
+                    <label>Categoria</label>
+                    <select
+                        required="required"
+                        value={category}
+                        onChange={ e => setCategory(e.target.value) }
+                    >
+                        <option value="-">Selecione uma categoria</option>
+                        { categories.map(item => {
+                            return <option key={item} value={item}>{item}</option>
+                        }) }
+                    </select>
+                </div>
+                <div>
+                    <button>Cadastrar</button>
+                </div>
+                <div>
+                    { errors && <div className={styles.error}>{ errors }</div> }
+                </div>
+            </form>
+           
+        </section>
+    );
+}
+
+export default Form;
+
+~~~
 
 ## Testes das validações [37:13]
 

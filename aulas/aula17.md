@@ -41,7 +41,6 @@ Exemplo: Na lista de vídeos da página Home, marcar um vídeo como Favorito par
 3. Com o seguinte código:
 
 ~~~javascript
-
 import { createContext, useState } from "react";
 
 export const FavoritesContext = createContext();
@@ -181,7 +180,7 @@ function Card({ id }) {
             </Link>
             <<figure className={styles.icon}>
                 <img
-                    src={iconeFavorite}
+                    src={iconFavorite}
                     alt="Ícone"
                     onClick={() => addFavorite({id})}
                 />
@@ -243,7 +242,7 @@ o nosso state global favorite tem 'pelo menos um' elemento com id igual ao id do
 > A outra forma usa a negação !isFavorite
 > Se não for favorito exiba iconFavorite senão iconUnfavorite
 
-## Código completo de Card (30 linhas)
+## Código completo de Card (34 linhas)
 
 ~~~javascript
 import { Link } from "react-router-dom";
@@ -261,7 +260,11 @@ function Card({ id }) {
     return (
         <section className={styles.card}>
             <Link to={`/watch/${id}`} >
-                <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`} alt="Capa" className={styles.capa} />
+                <img
+                    src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
+                    alt="Capa"
+                    className={styles.capa}
+                />
             </Link>
             <figure className={styles.icon}>
                 <img
@@ -307,7 +310,7 @@ const { favorite } = useFavoriteContext()
 
 > Com o context `favorite` que usa o contexto que criamos, teremos acesso à nossa lista de vídeos favoritos. Ela sera usada pelo nosso VideoList.
 
-3. Veja o código completo do index.js de Favorites:
+3. Veja o código completo do index.js de Favorites (27 linhas):
 
 ~~~javascript
 import Header from "../../components/Header";
