@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
+import iconFavorite from "./favorite.png";
+import iconUnfavorite from "./unfavorite.png";
 
 function Card({ id }) {
     return (
@@ -10,7 +12,11 @@ function Card({ id }) {
                     alt="Capa"
                     className={styles.capa}
                 />
-            </Link>
+                </Link>
+                <figure className={styles.icon}>
+                    <img src={iconFavorite} alt="Ícone" />
+                </figure>
+
         </section>
     );
 }
